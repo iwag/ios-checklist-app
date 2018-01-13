@@ -16,6 +16,7 @@
 		C9361AC32005B505000D72B1 /* helloworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9361AC22005B505000D72B1 /* helloworldTests.swift */; };
 		C9361ACE2005B505000D72B1 /* helloworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9361ACD2005B505000D72B1 /* helloworldUITests.swift */; };
 		C9D8736A2009AC540073AD0F /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D873692009AC540073AD0F /* ChecklistItem.swift */; };
+		C9D8736C2009BAB90073AD0F /* AddItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D8736B2009BAB90073AD0F /* AddItemViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		C9361ACD2005B505000D72B1 /* helloworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldUITests.swift; sourceTree = "<group>"; };
 		C9361ACF2005B505000D72B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9D873692009AC540073AD0F /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
+		C9D8736B2009BAB90073AD0F /* AddItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddItemViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				C9361AB62005B505000D72B1 /* LaunchScreen.storyboard */,
 				C9361AB92005B505000D72B1 /* Info.plist */,
 				C9361AB12005B505000D72B1 /* helloworld.xcdatamodeld */,
+				C9D8736B2009BAB90073AD0F /* AddItemViewController.swift */,
 			);
 			path = helloworld;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9D8736C2009BAB90073AD0F /* AddItemViewController.swift in Sources */,
 				C9361AAD2005B504000D72B1 /* ChecklistViewController.swift in Sources */,
 				C9361AAB2005B504000D72B1 /* AppDelegate.swift in Sources */,
 				C9361AB32005B505000D72B1 /* helloworld.xcdatamodeld in Sources */,
