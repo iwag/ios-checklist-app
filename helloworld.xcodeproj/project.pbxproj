@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		C9361AAB2005B504000D72B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9361AAA2005B504000D72B1 /* AppDelegate.swift */; };
-		C9361AAD2005B504000D72B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9361AAC2005B504000D72B1 /* ViewController.swift */; };
-		C9361AB02005B505000D72B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9361AAE2005B505000D72B1 /* Main.storyboard */; };
+		C9361AAD2005B504000D72B1 /* ChecklistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9361AAC2005B504000D72B1 /* ChecklistViewController.swift */; };
+		C9361AB02005B505000D72B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9361AAE2005B505000D72B1 /* Main.storyboard */; settings = {ASSET_TAGS = (1000, ); }; };
 		C9361AB32005B505000D72B1 /* helloworld.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C9361AB12005B505000D72B1 /* helloworld.xcdatamodeld */; };
 		C9361AB52005B505000D72B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9361AB42005B505000D72B1 /* Assets.xcassets */; };
 		C9361AB82005B505000D72B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9361AB62005B505000D72B1 /* LaunchScreen.storyboard */; };
 		C9361AC32005B505000D72B1 /* helloworldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9361AC22005B505000D72B1 /* helloworldTests.swift */; };
 		C9361ACE2005B505000D72B1 /* helloworldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9361ACD2005B505000D72B1 /* helloworldUITests.swift */; };
+		C9D8736A2009AC540073AD0F /* ChecklistItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D873692009AC540073AD0F /* ChecklistItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		C9361AA72005B504000D72B1 /* helloworld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = helloworld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9361AAA2005B504000D72B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9361AAC2005B504000D72B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C9361AAC2005B504000D72B1 /* ChecklistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistViewController.swift; sourceTree = "<group>"; };
 		C9361AAF2005B505000D72B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9361AB22005B505000D72B1 /* helloworld.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = helloworld.xcdatamodel; sourceTree = "<group>"; };
 		C9361AB42005B505000D72B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		C9361AC92005B505000D72B1 /* helloworldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = helloworldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9361ACD2005B505000D72B1 /* helloworldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldUITests.swift; sourceTree = "<group>"; };
 		C9361ACF2005B505000D72B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9D873692009AC540073AD0F /* ChecklistItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChecklistItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				C9361AAA2005B504000D72B1 /* AppDelegate.swift */,
-				C9361AAC2005B504000D72B1 /* ViewController.swift */,
+				C9361AAC2005B504000D72B1 /* ChecklistViewController.swift */,
+				C9D873692009AC540073AD0F /* ChecklistItem.swift */,
 				C9361AAE2005B505000D72B1 /* Main.storyboard */,
 				C9361AB42005B505000D72B1 /* Assets.xcassets */,
 				C9361AB62005B505000D72B1 /* LaunchScreen.storyboard */,
@@ -190,6 +193,9 @@
 		C9361A9F2005B504000D72B1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					1000,
+				);
 				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0910;
 				ORGANIZATIONNAME = iwag;
@@ -262,9 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9361AAD2005B504000D72B1 /* ViewController.swift in Sources */,
+				C9361AAD2005B504000D72B1 /* ChecklistViewController.swift in Sources */,
 				C9361AAB2005B504000D72B1 /* AppDelegate.swift in Sources */,
 				C9361AB32005B505000D72B1 /* helloworld.xcdatamodeld in Sources */,
+				C9D8736A2009AC540073AD0F /* ChecklistItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
